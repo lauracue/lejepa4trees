@@ -63,7 +63,7 @@ class ViTEncoder(nn.Module):
 @hydra.main(version_base=None)
 def main(cfg: DictConfig):
 
-    TEST_FOLDER = "C:/PostDoc/Seminar_Jefferson/data/correcting_geospatial_data/cropped_images"
+    TEST_FOLDER = "./data/correcting_geospatial_data/cropped_images"
 
     jpg_files = list(Path(TEST_FOLDER).glob("*.jpg"))
 
