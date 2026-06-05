@@ -1,12 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri May 29 12:28:26 2026
-
-@author: cuel001
-"""
-
-# -*- coding: utf-8 -*-
-"""
 Fully supervised training using the cropped test dataset.
 
 Created on Thu May 28 12:47:17 2026
