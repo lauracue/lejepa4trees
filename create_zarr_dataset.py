@@ -5,16 +5,6 @@ Created on Thu May 28 12:50:26 2026
 @author: cuel001
 """
 
-
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Apr 12 15:42:45 2026
-
-@author: laura.helena
-"""
-
-# file: convert_tiff_to_zarr.py
-
 import rasterio
 import zarr
 import numpy as np
