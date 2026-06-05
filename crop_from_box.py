@@ -4,9 +4,9 @@ import os
 import json
 from PIL import Image
 
-image_dir = "C:/PostDoc/Seminar_Jefferson/data/correcting_geospatial_data/images"
-json_dir = "C:/PostDoc/Seminar_Jefferson/data/correcting_geospatial_data/labels_json"
-output_dir = "C:/PostDoc/Seminar_Jefferson/data/correcting_geospatial_data/cropped_images"
+image_dir = "./data/correcting_geospatial_data/images"
+json_dir = "./data/correcting_geospatial_data/labels_json"
+output_dir = "./data/correcting_geospatial_data/cropped_images"
 
 os.makedirs(output_dir, exist_ok=True)
 
